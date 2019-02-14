@@ -32,10 +32,10 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BasePiece.cs" />
     <Compile Include="BlackPiece.cs" />
     <Compile Include="Board.cs" />
     <Compile Include="EmptyPiece.cs" />
-    <Compile Include="Piece.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WhitePiece.cs" />
