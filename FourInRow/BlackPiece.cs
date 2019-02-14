@@ -1,5 +1,5 @@
 namespace FourInRow {
-  public class BlackPiece : Piece {
+  public class BlackPiece : BasePiece {
     public override string Name => "black";
 
     public override string PieceColor => "@";

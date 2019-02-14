@@ -2,24 +2,24 @@ using System;
 
 namespace FourInRow {
   public class Board {
-    private readonly Piece[,] board;
+    private readonly BasePiece[,] board;
 
     public Board() { // constructor
-      board = new Piece[4, 4];
+      board = new BasePiece[4, 4];
     }
 
     public Board(int len) { // constructor
-      board = new Piece[len, len];
+      board = new BasePiece[len, len];
       for(var i = 0; i < len; i++)
         for(var j = 0; j < len; j++)
           board[i, j] = new EmptyPiece();
     }
 
-    public Piece GetBoard(int row, int col) {
+    public BasePiece GetBoard(int row, int col) {
       return board[row, col];
     }
 
-    public void SetBoard(int row, int col, Piece val) {
+    public void SetBoard(int row, int col, BasePiece val) {
       board[row, col] = val;
     }
 

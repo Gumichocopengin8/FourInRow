@@ -34,7 +34,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FourInRow/Board.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
+            <state relative-caret-position="1122">
               <caret line="66" column="1" lean-forward="true" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
               <folding>
                 <marker date="1550135161273" expanded="true" signature="35:2266" ph="{...}" />
@@ -130,11 +130,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/FourInRow/WhitePiece.cs" />
-        <option value="$PROJECT_DIR$/FourInRow/Piece.cs" />
         <option value="$PROJECT_DIR$/FourInRow/EmptyPiece.cs" />
         <option value="$PROJECT_DIR$/FourInRow/BlackPiece.cs" />
         <option value="$PROJECT_DIR$/FourInRow/Program.cs" />
         <option value="$PROJECT_DIR$/FourInRow/Board.cs" />
+        <option value="$PROJECT_DIR$/FourInRow/Piece.cs" />
       </list>
     </option>
   </component>
@@ -218,12 +218,12 @@
       <option name="presentableId" value="Default" />
       <updated>1550101237353</updated>
       <workItem from="1550101240316" duration="8458000" />
-      <workItem from="1550130044299" duration="5214000" />
+      <workItem from="1550130044299" duration="5741000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13672000" />
+    <option name="totallyTimeSpent" value="14199000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -236,6 +236,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -281,28 +282,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/FourInRow/WhitePiece.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding>
-            <marker date="1550134120630" expanded="true" signature="20:154" ph="{...}" />
-            <marker date="1550134120630" expanded="true" signature="56:152" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FourInRow/Piece.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding>
-            <marker date="1550134133745" expanded="true" signature="20:148" ph="{...}" />
-            <marker date="1550134133745" expanded="true" signature="52:146" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FourInRow/EmptyPiece.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -310,17 +289,6 @@
           <folding>
             <marker date="1550134147046" expanded="true" signature="20:154" ph="{...}" />
             <marker date="1550134147046" expanded="true" signature="56:152" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FourInRow/BlackPiece.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding>
-            <marker date="1550134343634" expanded="true" signature="20:154" ph="{...}" />
-            <marker date="1550134343634" expanded="true" signature="56:152" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -341,9 +309,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/FourInRow/WhitePiece.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <marker date="1550134120630" expanded="true" signature="20:154" ph="{...}" />
+            <marker date="1550134120630" expanded="true" signature="56:152" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FourInRow/BlackPiece.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <marker date="1550134343634" expanded="true" signature="20:154" ph="{...}" />
+            <marker date="1550134343634" expanded="true" signature="56:152" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FourInRow/Piece.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <marker date="1550134133745" expanded="true" signature="20:148" ph="{...}" />
+            <marker date="1550134133745" expanded="true" signature="52:146" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/FourInRow/Board.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
+        <state relative-caret-position="1122">
           <caret line="66" column="1" lean-forward="true" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
           <folding>
             <marker date="1550135161273" expanded="true" signature="35:2266" ph="{...}" />

@@ -19,7 +19,7 @@ namespace FourInRow {
         }
       }
 
-      bool PlayInput(string name, Piece piece) {
+      bool PlayInput(string name, BasePiece piece) {
         Console.Write(name + " turn: ");
         var position = Console.ReadLine().Split(' ');
         var row = int.Parse(position[0]);
