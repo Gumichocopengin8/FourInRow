@@ -1,8 +1,9 @@
 using System;
 
 namespace FourInRow {
+  [Serializable]
   public class Board {
-    private readonly BasePiece[,] board;
+    private BasePiece[,] board;
 
     public Board() { // constructor
       board = new BasePiece[4, 4];
@@ -62,6 +63,27 @@ namespace FourInRow {
              board[i - 2, j - 2].PieceColor == target && board[i - 3, j - 3].PieceColor == target)
             return true;
       return false;
+    }
+    
+    public void Serialize() {      
+      SaveLoad.Serialize(board);
+    }
+
+    public void Deserialize() {
+      // try {
+      //   var loadStream = new FileStream(saveFile, FileMode.Open);
+      //   var deserializer = new SoapFormatter();
+      //
+      //   try {
+      //     board = deserializer.Deserialize(loadStream) as BasePiece[,];
+      //   } catch(SerializationException e) {
+      //     Console.WriteLine(e.Message);
+      //   }
+      //   loadStream.Close();
+      // } catch(FileNotFoundException e) {
+      //   Console.WriteLine(e.Message);
+      // }
+      // SaveLoad.Deserialize(ref board);
     }
   }
 }
