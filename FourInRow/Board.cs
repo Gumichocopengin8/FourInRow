@@ -3,7 +3,7 @@ using System;
 namespace FourInRow {
   [Serializable]
   public class Board {
-    private BasePiece[,] board;
+    private readonly BasePiece[,] board;
 
     public Board() { // constructor
       board = new BasePiece[4, 4];
@@ -33,7 +33,7 @@ namespace FourInRow {
       for(var i = 0; i < len; i++) {
         Console.Write(i + 1);
         for(var j = 0; j < len; j++) Console.Write(board[i, j].PieceColor);
-          Console.WriteLine();
+        Console.WriteLine();
       }
     }
 
@@ -63,27 +63,6 @@ namespace FourInRow {
              board[i - 2, j - 2].PieceColor == target && board[i - 3, j - 3].PieceColor == target)
             return true;
       return false;
-    }
-    
-    public void Serialize() {      
-      SaveLoad.Serialize(board);
-    }
-
-    public void Deserialize() {
-      // try {
-      //   var loadStream = new FileStream(saveFile, FileMode.Open);
-      //   var deserializer = new SoapFormatter();
-      //
-      //   try {
-      //     board = deserializer.Deserialize(loadStream) as BasePiece[,];
-      //   } catch(SerializationException e) {
-      //     Console.WriteLine(e.Message);
-      //   }
-      //   loadStream.Close();
-      // } catch(FileNotFoundException e) {
-      //   Console.WriteLine(e.Message);
-      // }
-      // SaveLoad.Deserialize(ref board);
     }
   }
 }

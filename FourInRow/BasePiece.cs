@@ -1,7 +1,7 @@
 using System;
 
 namespace FourInRow {
- [Serializable]
+  [Serializable]
   public abstract class BasePiece {
     public abstract string Name { get; }
 
